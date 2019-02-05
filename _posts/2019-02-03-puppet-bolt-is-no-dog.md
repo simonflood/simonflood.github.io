@@ -3,7 +3,7 @@ layout: post
 title: "Puppet Bolt is no dog"
 date: 2019-02-03
 category: "Configuration Management"
-tags: [puppet, puppetbolt, ubuntu, sles]
+tags: [puppet, puppetbolt, ubuntu]
 ---
 On 24 January I was fortunate enough to be able to attend a free
 [Puppet Bolt](https://puppet.com/products/puppet-bolt) workshop at
@@ -30,26 +30,23 @@ bolt task run <task> --nodes ...
 bolt plan run <plan> --nodes ...
 ~~~
 
-Like Ansible, Puppet Bolt is agentless and one of the reasons for Puppet Bolt
-is because people were using Ansible with Puppet. Unlike Ansible (and other
-configuration/infrastructure management tools such as SaltStack), Puppet Bolt
-is multi-platform and can be installed on Windows, macOS, and various Linux
+Like Ansible (or Salt in agentless mode), Puppet Bolt is agentless and one of
+the reasons for Puppet Bolt is because people were using Ansible with Puppet.
+Unlike Ansible (and other configuration/infrastructure management tools such as
+Salt), Puppet Bolt can be installed on Windows, macOS, and various Linux
 distributions. During the workshop we each installed Bolt on our own laptop to
 manage two assigned nodes in AWS, one running Windows and the other CentOS
 (Linux). It was just as well I was running Ubuntu 18.04.1 LTS Desktop on my
 laptop because for Ubuntu only LTS releases are supported for Puppet Bolt!
 
-I've simplified their installation instructions for Ubuntu to use the
-**lsb_release** command to retrieve the codename.
+I've simplified their [Installing Bolt](http://pup.pt/installbolt) instructions
+for Ubuntu to use the **lsb_release** command to retrieve the codename.
 ~~~
 wget https://apt.puppet.com/puppet6-release-`lsb_release -cs`.deb
 sudo dpkg -i puppet6-release-`lsb_release -cs`.deb
 sudo apt-get update 
 sudo apt-get install puppet-bolt
 ~~~
-and despite their [Installing Bolt documentation](http://pup.pt/installbolt)
-only listing SUSE Linux Enterprise Server (SLES) 12 there are also packages
-available for SLES11 and SLES15.
 
 Whilst you can specify authentication options when using the **bolt** command
 it's easier to create **bolt.yaml** and **inventory.yaml** files. You can
@@ -76,8 +73,16 @@ Puppet Enterprise.
 Not previously knowing Puppet this was an interesting workshop. I can see that
 if you're already using Puppet (or not using any configuration management
 solution) then you should definitely take a look at Puppet Bolt. If you are
-already using Ansible or SaltStack (or some other solution) then you're
-probably already covered although it doesn't hurt to be aware of other
-solutions.
+already using Ansible or Salt (or some other solution) then you're probably
+already covered although it doesn't hurt to be aware of other solutions.
 
 Simon
+
+----
+Updated 05 February 2019:
+* removed reference to Puppet Bolt being multi-platform since Ansible, etc. can
+  manage multiple platforms (even though they can only be installed on Linux)
+* removed reference to SLES since Puppet Bolt package is only available for
+  SLES12
+* changed SaltStack to Salt
+* added reference to Salt in agentless mode
