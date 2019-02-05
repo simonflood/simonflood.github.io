@@ -79,7 +79,7 @@ already covered although it doesn't hurt to be aware of other solutions.
 Simon
 
 ----
-Updated 05 February 2019:
+Updated 05 Feb 2019:
 * removed reference to Puppet Bolt being multi-platform since Ansible, etc. can
   manage multiple platforms (even though they can only be installed on Linux)
 * removed reference to SLES since Puppet Bolt package is only available for
