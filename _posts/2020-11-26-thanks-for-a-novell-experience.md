@@ -30,7 +30,9 @@ the forums (my primary method of reading and replying to posts), and the new
 felt that it was the right time to formally leave the program. This doesn't
 mean that my previous contributions will disappear as my posts should
 still continue to exist associated with my username
-[smflood](https://community.microfocus.com/t5/user/viewprofilepage/user-id/192797).
+[smflood](https://community.microfocus.com/t5/user/viewprofilepage/user-id/192797)
+(and a few with
+[smflood1](https://community.microfocus.com/t5/user/viewprofilepage/user-id/223563)).
 
 During my eleven years as a Novell/Micro Focus Knowledge Partner, Novell were
 bought by Attachmate which became known as The Attachmate Group with Novell and
@@ -64,3 +66,7 @@ their then low price - I wish I had as they've since increased in value by over
 It is currently my intention to continue as a SUSE Knowledge Partner.
 
 Simon
+
+----
+Updated 03 Dec 2020:
+* added link to migrated account (smflood1)
