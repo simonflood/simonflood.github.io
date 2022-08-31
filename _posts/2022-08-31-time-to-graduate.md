@@ -7,7 +7,7 @@ tags: [ university, highereducation, novell, suse, linux ]
 ---
 Today was my last working day at the University of Cambridge after 22.5 years. I have spent the last four years in the MRC Biostatistics Unit and have worked in IT in the Higher Education sector for 30+ years. This has caused me to reminisce a little.
 
-# Anglia Polytechnic - Anglia Polytechnic University - Anglia Ruskin University
+## Anglia Polytechnic - Anglia Polytechnic University - Anglia Ruskin University
 
 In August 1991 I started my professional career providing IT support within the Anglia Business School at what was then named Anglia Polytechnic. My first project was to help replace the School's old teaching network and I remember installing Novell NetWare 3.11 on one of two new servers, alongside a member of the central IT Services team, both of us learning as we worked. Little did I know then how big a part Novell would play in my career!
 
@@ -17,7 +17,7 @@ In January 1997 I moved to (what became) the University's Communications & IT Se
 
 I have happy memories of working at Anglia and it was whilst working there that I met my wife and we've now been married 24 years! 
 
-# University of Cambridge
+## University of Cambridge
 
 In April 2000 I left Anglia to join the University of Cambridge Computing Service as a server and services specialist, again working with Novell NetWare. When Novell (who by this time had acquired SUSE) developed Open Enterprise Server (based on SUSE Linux Enterprise Server 9) I was able to use my Linux knowledge to be involved with beta testing. During this time I was invited to join what was then known as the [Novell Knowledge Partner](/blog/2020/11/26/thanks-for-a-novell-experience) program.
 
