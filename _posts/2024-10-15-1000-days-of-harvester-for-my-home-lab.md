@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "1000 Days of Harvester for my Home Lab"
+title: "1,000 Days of Harvester for my Home Lab"
 date: 2024-10-15
 category: "Home Lab" 
 tags: [ harvester, suse, kubernetes ]
